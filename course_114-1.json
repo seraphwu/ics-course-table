@@ -1,0 +1,569 @@
+{
+  "metadata": {
+    "department": "資訊傳播學系",
+    "semester": "114學年度第1學期"
+  },
+  "timeSlots": [
+    {
+      "period": "1",
+      "time": "08:10-09:00",
+      "label": "1"
+    },
+    {
+      "period": "2",
+      "time": "09:10-10:00",
+      "label": "2"
+    },
+    {
+      "period": "3",
+      "time": "10:10-11:00",
+      "label": "3"
+    },
+    {
+      "period": "4",
+      "time": "11:10-12:00",
+      "label": "4"
+    },
+    {
+      "period": "L",
+      "time": "12:00-13:20",
+      "label": "午休",
+      "isLunch": true
+    },
+    {
+      "period": "5",
+      "time": "13:20-14:10",
+      "label": "5"
+    },
+    {
+      "period": "6",
+      "time": "14:20-15:10",
+      "label": "6"
+    },
+    {
+      "period": "7",
+      "time": "15:20-16:10",
+      "label": "7"
+    },
+    {
+      "period": "8",
+      "time": "16:20-17:10",
+      "label": "8"
+    },
+    {
+      "period": "9",
+      "time": "17:15-18:05",
+      "label": "9"
+    },
+    {
+      "period": "10",
+      "time": "18:20-19:10",
+      "label": "A (10)"
+    },
+    {
+      "period": "11",
+      "time": "19:15-20:05",
+      "label": "B (11)"
+    }
+  ],
+  "courses": [
+    {
+      "name": "AI藝術創作與攝影",
+      "teacher": "陳俊廷",
+      "room": "G702",
+      "day": 5,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "1",
+      "classType": "common",
+      "className": "資傳一年級",
+      "required": false
+    },
+    {
+      "name": "AI藝術創作與攝影",
+      "teacher": "林亮竹",
+      "room": "CB205",
+      "day": 1,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "1",
+      "classType": "common",
+      "className": "資傳一年級",
+      "required": false
+    },
+    {
+      "name": "資訊傳播概論",
+      "teacher": "莊道明",
+      "room": "R501",
+      "day": 1,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "1",
+      "classType": "a",
+      "className": "資傳一甲",
+      "required": true
+    },
+    {
+      "name": "資訊行銷",
+      "teacher": "江信昱",
+      "room": "G702",
+      "day": 5,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "1",
+      "classType": "a",
+      "className": "資傳一甲",
+      "required": true
+    },
+    {
+      "name": "探索資訊傳播",
+      "teacher": "阮明淑",
+      "room": "R901",
+      "day": 3,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "1",
+      "classType": "a",
+      "className": "資傳一甲",
+      "required": true
+    },
+    {
+      "name": "資訊傳播概論",
+      "teacher": "黃昭謀",
+      "room": "R603",
+      "day": 1,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "1",
+      "classType": "b",
+      "className": "資傳一乙",
+      "required": true
+    },
+    {
+      "name": "資訊行銷",
+      "teacher": "楊志宏",
+      "room": "G503",
+      "day": 4,
+      "periods": [
+        "8",
+        "9"
+      ],
+      "year": "1",
+      "classType": "b",
+      "className": "資傳一乙",
+      "required": true
+    },
+    {
+      "name": "探索資訊傳播",
+      "teacher": "黃昭謀",
+      "room": "R402",
+      "day": 2,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "1",
+      "classType": "b",
+      "className": "資傳一乙",
+      "required": true
+    },
+    {
+      "name": "程式設計概論(尾數1-3)",
+      "teacher": "劉立民",
+      "room": "W401",
+      "day": 1,
+      "periods": [
+        "10",
+        "11"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": true,
+      "note": "學號尾數1、2、3"
+    },
+    {
+      "name": "程式設計概論(尾數4-6)",
+      "teacher": "陳俊廷",
+      "room": "W401",
+      "day": 2,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": true,
+      "note": "學號尾數4、5、6"
+    },
+    {
+      "name": "程式設計概論(尾數7-0)",
+      "teacher": "張純良",
+      "room": "M303",
+      "day": 5,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": true,
+      "note": "學號尾數7、8、9、0"
+    },
+    {
+      "name": "社群經營",
+      "teacher": "黃昭謀",
+      "room": "R401",
+      "day": 3,
+      "periods": [
+        "8",
+        "9"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": false
+    },
+    {
+      "name": "社群經營",
+      "teacher": "黃昭謀",
+      "room": "M412",
+      "day": 1,
+      "periods": [
+        "9",
+        "10"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": false
+    },
+    {
+      "name": "分類學原理與應用",
+      "teacher": "阮明淑",
+      "room": "R701",
+      "day": 5,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": false
+    },
+    {
+      "name": "資訊檢索與創意寫作",
+      "teacher": "陳貞妃",
+      "room": "R203",
+      "day": 4,
+      "periods": [
+        "8",
+        "9"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": false
+    },
+    {
+      "name": "生成式AI的內容核實",
+      "teacher": "江信昱",
+      "room": "G702",
+      "day": 1,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": false
+    },
+    {
+      "name": "剪輯技巧與敘事",
+      "teacher": "陳中宇",
+      "room": "M306",
+      "day": 1,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "2",
+      "classType": "common",
+      "className": "資傳二年級",
+      "required": false
+    },
+    {
+      "name": "數位內容設計",
+      "teacher": "江信昱",
+      "room": "G401",
+      "day": 4,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "2",
+      "classType": "a",
+      "className": "資傳二甲",
+      "required": true
+    },
+    {
+      "name": "數位內容設計",
+      "teacher": "林頌堅",
+      "room": "J310",
+      "day": 3,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "2",
+      "classType": "b",
+      "className": "資傳二乙",
+      "required": true
+    },
+    {
+      "name": "專案企劃",
+      "teacher": "連英佑",
+      "room": "G501",
+      "day": 5,
+      "periods": [
+        "6",
+        "7",
+        "8"
+      ],
+      "year": "3",
+      "classType": "common",
+      "className": "資傳三年級",
+      "required": false
+    },
+    {
+      "name": "資訊傳播產業概論",
+      "teacher": "阮明淑",
+      "room": "R701",
+      "day": 2,
+      "periods": [
+        "2",
+        "3",
+        "4"
+      ],
+      "year": "3",
+      "classType": "common",
+      "className": "資傳三年級",
+      "required": false
+    },
+    {
+      "name": "電子商務服務",
+      "teacher": "林頌堅",
+      "room": "CB308",
+      "day": 3,
+      "periods": [
+        "8",
+        "9"
+      ],
+      "year": "3",
+      "classType": "common",
+      "className": "資傳三年級",
+      "required": false
+    },
+    {
+      "name": "AI協作程式設計",
+      "teacher": "劉立民",
+      "room": "M303",
+      "day": 4,
+      "periods": [
+        "8",
+        "9"
+      ],
+      "year": "3",
+      "classType": "common",
+      "className": "資傳三年級",
+      "required": false
+    },
+    {
+      "name": "資料庫系統",
+      "teacher": "劉立民",
+      "room": "M303",
+      "day": 2,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "3",
+      "classType": "a",
+      "className": "資傳三甲",
+      "required": true
+    },
+    {
+      "name": "使用者研究與服務設計",
+      "teacher": "陳俊廷",
+      "room": "CB201",
+      "day": 3,
+      "periods": [
+        "2",
+        "3",
+        "4"
+      ],
+      "year": "3",
+      "classType": "a",
+      "className": "資傳三甲",
+      "required": true
+    },
+    {
+      "name": "資訊資源與組織",
+      "teacher": "阮明淑",
+      "room": "R602",
+      "day": 4,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "3",
+      "classType": "a",
+      "className": "資傳三甲",
+      "required": true
+    },
+    {
+      "name": "資訊傳播專題（二）",
+      "teacher": "江信昱",
+      "room": "R901",
+      "day": 5,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "3",
+      "classType": "a",
+      "className": "資傳三甲",
+      "required": true
+    },
+    {
+      "name": "資料庫系統",
+      "teacher": "劉立民",
+      "room": "M303",
+      "day": 2,
+      "periods": [
+        "8",
+        "9"
+      ],
+      "year": "3",
+      "classType": "b",
+      "className": "資傳三乙",
+      "required": true
+    },
+    {
+      "name": "數位圖像製作實務：PS與 AI",
+      "teacher": "吳林展",
+      "room": "M304",
+      "day": 4,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "1",
+      "classType": "common",
+      "className": "傳播學院",
+      "required": false
+    },
+    {
+      "name": "使用者研究與服務設計",
+      "teacher": "凃佩君",
+      "room": "G402",
+      "day": 4,
+      "periods": [
+        "2",
+        "3",
+        "4"
+      ],
+      "year": "3",
+      "classType": "b",
+      "className": "資傳三乙",
+      "required": true
+    },
+    {
+      "name": "資訊資源與組織",
+      "teacher": "江思嫺",
+      "room": "G403",
+      "day": 5,
+      "periods": [
+        "3",
+        "4"
+      ],
+      "year": "3",
+      "classType": "b",
+      "className": "資傳三乙",
+      "required": true
+    },
+    {
+      "name": "資訊傳播專題（二）",
+      "teacher": "林頌堅",
+      "room": "R603",
+      "day": 4,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "3",
+      "classType": "b",
+      "className": "資傳三乙",
+      "required": true
+    },
+    {
+      "name": "大型語言模型應用與傳播",
+      "teacher": "林頌堅",
+      "room": "R603",
+      "day": 1,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "4",
+      "classType": "common",
+      "className": "資傳四年級",
+      "required": false
+    },
+    {
+      "name": "資訊傳播機構實習",
+      "teacher": "江信昱/吳林展",
+      "room": "CB202",
+      "day": 2,
+      "periods": [
+        "8",
+        "9",
+        "10"
+      ],
+      "year": "4",
+      "classType": "a",
+      "className": "資傳四甲",
+      "required": false
+    },
+    {
+      "name": "資訊傳播專題（四）",
+      "teacher": "黃昭謀/阮明淑",
+      "room": "R501",
+      "day": 2,
+      "periods": [
+        "6",
+        "7"
+      ],
+      "year": "4",
+      "classType": "a",
+      "className": "資傳四甲",
+      "required": true
+    }
+  ]
+}
