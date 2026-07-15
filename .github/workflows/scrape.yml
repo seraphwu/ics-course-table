@@ -1,0 +1,52 @@
+name: Scrape Course Data
+
+on:
+  schedule:
+    # 每日 06:00 UTC+8 (22:00 UTC)
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+    inputs:
+      year:
+        description: '學年'
+        required: false
+        default: '115'
+      semester:
+        description: '學期 (1 或 2)'
+        required: false
+        default: '1'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: |
+          python scrape.py \
+            --year ${{ github.event.inputs.year || '115' }} \
+            --semester ${{ github.event.inputs.semester || '1' }} \
+            --delay 1.5
+        env:
+          PYTHONUNBUFFERED: 1
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update course data [automated]'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+          file_pattern: 'course_*.json config.json'

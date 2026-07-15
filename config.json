@@ -1,5 +1,10 @@
 [
   {
+    "semester": "115-1",
+    "label": "115學年度 第1學期",
+    "file": "course_115-1.json"
+  },
+  {
     "semester": "114-2",
     "label": "114學年度 第2學期",
     "file": "course_114-2.json"
