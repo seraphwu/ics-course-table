@@ -6,64 +6,59 @@
   "timeSlots": [
     {
       "period": "1",
-      "time": "08:10-09:00",
-      "label": "1"
+      "label": "1",
+      "time": "08:10<br>~<br>09:00"
     },
     {
       "period": "2",
-      "time": "09:10-10:00",
-      "label": "2"
+      "label": "2",
+      "time": "09:10<br>~<br>10:00"
     },
     {
       "period": "3",
-      "time": "10:10-11:00",
-      "label": "3"
+      "label": "3",
+      "time": "10:10<br>~<br>11:00"
     },
     {
       "period": "4",
-      "time": "11:10-12:00",
-      "label": "4"
-    },
-    {
-      "period": "L",
-      "time": "12:00-13:20",
-      "label": "午休",
-      "isLunch": true
+      "label": "4",
+      "time": "11:10<br>~<br>12:00"
     },
     {
       "period": "5",
-      "time": "13:20-14:10",
-      "label": "5"
+      "label": "5",
+      "time": "12:10<br>~<br>13:00",
+      "isLunch": true
     },
     {
       "period": "6",
-      "time": "14:20-15:10",
-      "label": "6"
+      "label": "6",
+      "time": "13:10<br>~<br>14:00"
     },
     {
       "period": "7",
-      "time": "15:20-16:10",
-      "label": "7"
+      "label": "7",
+      "time": "14:10<br>~<br>15:00"
     },
     {
       "period": "8",
-      "time": "16:20-17:10",
-      "label": "8"
+      "label": "8",
+      "time": "15:10<br>~<br>16:00"
     },
     {
       "period": "9",
-      "time": "17:15-18:05",
-      "label": "9"
+      "label": "9",
+      "time": "16:10<br>~<br>17:00"
     },
     {
       "period": "10",
-      "time": "18:20-19:10",
-      "label": "A (10)"
+      "label": "10",
+      "time": "17:10<br>~<br>18:00"
     },
     {
-      "period": "11",
-      "time": "19:15-20:05",
-      "label": "B (11)"
+      "period": "12",
+      "label": "12-14",
+      "time": "19:10<br>~<br>22:00"
     }
   ],
   "courses": [
@@ -79,7 +74,8 @@
       "year": "1",
       "classType": "common",
       "className": "資傳一年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "AI藝術創作與攝影",
@@ -93,7 +89,8 @@
       "year": "1",
       "classType": "common",
       "className": "資傳一年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "資訊傳播概論",
@@ -107,7 +104,8 @@
       "year": "1",
       "classType": "a",
       "className": "資傳一甲",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "資訊行銷",
@@ -121,7 +119,8 @@
       "year": "1",
       "classType": "a",
       "className": "資傳一甲",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "探索資訊傳播",
@@ -135,7 +134,8 @@
       "year": "1",
       "classType": "a",
       "className": "資傳一甲",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "資訊傳播概論",
@@ -149,7 +149,8 @@
       "year": "1",
       "classType": "b",
       "className": "資傳一乙",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "資訊行銷",
@@ -163,7 +164,8 @@
       "year": "1",
       "classType": "b",
       "className": "資傳一乙",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "探索資訊傳播",
@@ -177,7 +179,8 @@
       "year": "1",
       "classType": "b",
       "className": "資傳一乙",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "程式設計概論(尾數1-3)",
@@ -192,7 +195,8 @@
       "classType": "common",
       "className": "資傳二年級",
       "required": true,
-      "note": "學號尾數1、2、3"
+      "note": "學號尾數1、2、3",
+      "code": ""
     },
     {
       "name": "程式設計概論(尾數4-6)",
@@ -207,7 +211,8 @@
       "classType": "common",
       "className": "資傳二年級",
       "required": true,
-      "note": "學號尾數4、5、6"
+      "note": "學號尾數4、5、6",
+      "code": ""
     },
     {
       "name": "程式設計概論(尾數7-0)",
@@ -222,7 +227,8 @@
       "classType": "common",
       "className": "資傳二年級",
       "required": true,
-      "note": "學號尾數7、8、9、0"
+      "note": "學號尾數7、8、9、0",
+      "code": ""
     },
     {
       "name": "社群經營",
@@ -236,7 +242,8 @@
       "year": "2",
       "classType": "common",
       "className": "資傳二年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "社群經營",
@@ -250,7 +257,8 @@
       "year": "2",
       "classType": "common",
       "className": "資傳二年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "分類學原理與應用",
@@ -264,7 +272,8 @@
       "year": "2",
       "classType": "common",
       "className": "資傳二年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "資訊檢索與創意寫作",
@@ -278,7 +287,8 @@
       "year": "2",
       "classType": "common",
       "className": "資傳二年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "生成式AI的內容核實",
@@ -292,7 +302,8 @@
       "year": "2",
       "classType": "common",
       "className": "資傳二年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "剪輯技巧與敘事",
@@ -306,7 +317,8 @@
       "year": "2",
       "classType": "common",
       "className": "資傳二年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "數位內容設計",
@@ -320,7 +332,8 @@
       "year": "2",
       "classType": "a",
       "className": "資傳二甲",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "數位內容設計",
@@ -334,7 +347,8 @@
       "year": "2",
       "classType": "b",
       "className": "資傳二乙",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "專案企劃",
@@ -349,7 +363,8 @@
       "year": "3",
       "classType": "common",
       "className": "資傳三年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "資訊傳播產業概論",
@@ -364,7 +379,8 @@
       "year": "3",
       "classType": "common",
       "className": "資傳三年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "電子商務服務",
@@ -378,7 +394,8 @@
       "year": "3",
       "classType": "common",
       "className": "資傳三年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "AI協作程式設計",
@@ -392,7 +409,8 @@
       "year": "3",
       "classType": "common",
       "className": "資傳三年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "資料庫系統",
@@ -406,7 +424,8 @@
       "year": "3",
       "classType": "a",
       "className": "資傳三甲",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "使用者研究與服務設計",
@@ -421,7 +440,8 @@
       "year": "3",
       "classType": "a",
       "className": "資傳三甲",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "資訊資源與組織",
@@ -435,7 +455,8 @@
       "year": "3",
       "classType": "a",
       "className": "資傳三甲",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "資訊傳播專題（二）",
@@ -449,7 +470,8 @@
       "year": "3",
       "classType": "a",
       "className": "資傳三甲",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "資料庫系統",
@@ -463,7 +485,8 @@
       "year": "3",
       "classType": "b",
       "className": "資傳三乙",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "數位圖像製作實務：PS與 AI",
@@ -477,7 +500,8 @@
       "year": "1",
       "classType": "common",
       "className": "傳播學院",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "使用者研究與服務設計",
@@ -492,7 +516,8 @@
       "year": "3",
       "classType": "b",
       "className": "資傳三乙",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "資訊資源與組織",
@@ -506,7 +531,8 @@
       "year": "3",
       "classType": "b",
       "className": "資傳三乙",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "資訊傳播專題（二）",
@@ -520,7 +546,8 @@
       "year": "3",
       "classType": "b",
       "className": "資傳三乙",
-      "required": true
+      "required": true,
+      "code": ""
     },
     {
       "name": "大型語言模型應用與傳播",
@@ -534,11 +561,12 @@
       "year": "4",
       "classType": "common",
       "className": "資傳四年級",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "資訊傳播機構實習",
-      "teacher": "江信昱/吳林展",
+      "teacher": "江信昱 / 吳林展",
       "room": "CB202",
       "day": 2,
       "periods": [
@@ -549,11 +577,12 @@
       "year": "4",
       "classType": "a",
       "className": "資傳四甲",
-      "required": false
+      "required": false,
+      "code": ""
     },
     {
       "name": "資訊傳播專題（四）",
-      "teacher": "黃昭謀/阮明淑",
+      "teacher": "黃昭謀 / 阮明淑",
       "room": "R501",
       "day": 2,
       "periods": [
@@ -563,7 +592,8 @@
       "year": "4",
       "classType": "a",
       "className": "資傳四甲",
-      "required": true
+      "required": true,
+      "code": ""
     }
   ]
 }

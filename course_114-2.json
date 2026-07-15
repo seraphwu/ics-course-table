@@ -67,43 +67,55 @@
       "name": "資訊傳播專題(一)",
       "teacher": "莊道明",
       "day": 1,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "CB205",
       "year": "2",
       "classType": "a",
       "required": true,
-      "className": "二甲"
+      "className": "資傳二甲"
     },
     {
       "code": "INFO-354-02-A1",
       "name": "數據資料分析",
       "teacher": "黃柏堯",
       "day": 1,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "W401",
       "year": "3",
       "classType": "b",
       "required": true,
-      "className": "三乙"
+      "className": "資傳三乙"
     },
     {
       "code": "INFO-228-01-A1",
       "name": "質性資料分析",
       "teacher": "黃昭謀",
       "day": 1,
-      "periods": ["6", "7"],
+      "periods": [
+        "6",
+        "7"
+      ],
       "room": "R501",
       "year": "2",
       "classType": "a",
       "required": true,
-      "className": "二甲"
+      "className": "資傳二甲"
     },
     {
       "name": "數位影音剪輯實務：Premiere Pro",
       "teacher": "林亮竹",
       "room": "M308",
       "day": 3,
-      "periods": ["8", "9"],
+      "periods": [
+        "8",
+        "9"
+      ],
       "year": "1",
       "classType": "common",
       "className": "傳播學院",
@@ -114,348 +126,445 @@
       "name": "資訊傳播專題(三)",
       "teacher": "江信昱",
       "day": 1,
-      "periods": ["6", "7"],
+      "periods": [
+        "6",
+        "7"
+      ],
       "room": "R704",
       "year": "3",
       "classType": "a",
       "required": true,
-      "className": "三甲"
+      "className": "資傳三甲"
     },
     {
       "code": "INFO-366-02-A1",
       "name": "資訊傳播專題(三)",
       "teacher": "莊道明 / 郭冠麟",
       "day": 1,
-      "periods": ["6", "7"],
+      "periods": [
+        "6",
+        "7"
+      ],
       "room": "CB201",
       "year": "3",
       "classType": "b",
       "required": true,
-      "className": "三乙"
+      "className": "資傳三乙"
     },
     {
       "code": "INFO-107-02-A1",
       "name": "網頁設計",
       "teacher": "林頌堅",
       "day": 2,
-      "periods": ["6", "7", "8"],
+      "periods": [
+        "6",
+        "7",
+        "8"
+      ],
       "room": "M308",
       "year": "1",
       "classType": "a",
       "required": true,
-      "className": "一甲"
+      "className": "資傳一甲"
     },
     {
       "code": "INFO-354-01-A1",
       "name": "數據資料分析",
       "teacher": "莊道明",
       "day": 2,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "S303",
       "year": "3",
       "classType": "a",
       "required": true,
-      "className": "三甲"
+      "className": "資傳三甲"
     },
     {
       "code": "INFO-240-01-A1",
       "name": "人工智慧與傳播科技應用",
       "teacher": "陳俊廷",
       "day": 2,
-      "periods": ["3", "4", "5"],
+      "periods": [
+        "3",
+        "4",
+        "5"
+      ],
       "room": "W401",
       "year": "2",
       "classType": "common",
       "required": false,
-      "className": "大二"
+      "className": "資傳二年級"
     },
     {
       "code": "INFO-117-02-A1",
       "name": "數位內容策展",
       "teacher": "阮明淑",
       "day": 2,
-      "periods": ["6", "7"],
+      "periods": [
+        "6",
+        "7"
+      ],
       "room": "R901",
       "year": "1",
       "classType": "b",
       "required": true,
-      "className": "一乙"
+      "className": "資傳一乙"
     },
     {
       "code": "INFO-441-01-A1",
       "name": "網路傳播與生成式AI",
       "teacher": "黃昭謀",
       "day": 2,
-      "periods": ["6", "7"],
+      "periods": [
+        "6",
+        "7"
+      ],
       "room": "R203",
       "year": "4",
       "classType": "common",
       "required": true,
-      "className": "四甲"
+      "className": "資傳四甲"
     },
     {
       "code": "INFO-241-01-A1",
       "name": "英語直播: 口語表達",
       "teacher": "楊盛昱",
       "day": 2,
-      "periods": ["8", "9"],
+      "periods": [
+        "8",
+        "9"
+      ],
       "room": "C101",
       "year": "2",
       "classType": "common",
       "required": false,
-      "className": "大二"
+      "className": "資傳二年級"
     },
     {
       "code": "INFO-227-01-A1",
       "name": "資訊圖表設計",
       "teacher": "林頌堅",
       "day": 3,
-      "periods": ["2", "3", "4"],
+      "periods": [
+        "2",
+        "3",
+        "4"
+      ],
       "room": "G302",
       "year": "3",
       "classType": "common",
       "required": false,
-      "className": "大三"
+      "className": "資傳三年級"
     },
     {
       "code": "INFO-112-01-A1",
       "name": "網路直播經營",
       "teacher": "莊道明",
       "day": 3,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "G502",
       "year": "1",
       "classType": "common",
       "required": false,
-      "className": "大一"
+      "className": "資傳一年級"
     },
     {
       "code": "INFO-228-02-A1",
       "name": "質性資料分析",
       "teacher": "吳林展 / 黃昭謀",
       "day": 3,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "J306",
       "year": "2",
       "classType": "b",
       "required": true,
-      "className": "二乙"
+      "className": "資傳二乙"
     },
     {
       "code": "INFO-237-01-A1",
       "name": "系統分析",
       "teacher": "余顯強",
       "day": 3,
-      "periods": ["8", "9", "10"],
+      "periods": [
+        "8",
+        "9",
+        "10"
+      ],
       "room": "G502",
       "year": "2",
       "classType": "common",
       "required": false,
-      "className": "大二"
+      "className": "資傳二年級"
     },
     {
       "code": "INFO-364-01-A1",
       "name": "知識管理與商業智慧",
       "teacher": "阮明淑",
       "day": 3,
-      "periods": ["8", "9", "10"],
+      "periods": [
+        "8",
+        "9",
+        "10"
+      ],
       "room": "R102",
       "year": "3",
       "classType": "common",
       "required": false,
-      "className": "大三"
+      "className": "資傳三年級"
     },
     {
       "code": "INFO-362-02-A1",
       "name": "資料庫系統開發實務",
       "teacher": "劉立民",
       "day": 4,
-      "periods": ["1", "2"],
+      "periods": [
+        "1",
+        "2"
+      ],
       "room": "M303",
       "year": "3",
       "classType": "b",
       "required": true,
-      "className": "三乙"
+      "className": "資傳三乙"
     },
     {
       "code": "INFO-236-01-A1",
       "name": "網站規劃與設計",
       "teacher": "連英佑 / 林頌堅",
       "day": 4,
-      "periods": ["2", "3", "4"],
+      "periods": [
+        "2",
+        "3",
+        "4"
+      ],
       "room": "R502",
       "year": "2",
       "classType": "common",
       "required": false,
-      "className": "大二"
+      "className": "資傳二年級"
     },
     {
       "code": "INFO-117-01-A1",
       "name": "數位內容策展",
       "teacher": "黃昭謀",
       "day": 4,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "R901",
       "year": "1",
       "classType": "a",
       "required": true,
-      "className": "一甲"
+      "className": "資傳一甲"
     },
     {
       "code": "INFO-362-01-A1",
       "name": "資料庫系統開發實務",
       "teacher": "余顯強",
       "day": 4,
-      "periods": ["4", "5"],
+      "periods": [
+        "4",
+        "5"
+      ],
       "room": "M306",
       "year": "3",
       "classType": "a",
       "required": true,
-      "className": "三甲"
+      "className": "資傳三甲"
     },
     {
       "code": "INFO-107-01-A1",
       "name": "網頁設計",
       "teacher": "連英佑",
       "day": 4,
-      "periods": ["6", "7", "8"],
+      "periods": [
+        "6",
+        "7",
+        "8"
+      ],
       "room": "L502",
       "year": "1",
       "classType": "b",
       "required": true,
-      "className": "一乙"
+      "className": "資傳一乙"
     },
     {
       "code": "INFO-238-02-A1",
       "name": "資訊傳播專題(一)",
       "teacher": "阮明淑",
       "day": 4,
-      "periods": ["6", "7"],
+      "periods": [
+        "6",
+        "7"
+      ],
       "room": "CB201",
       "year": "2",
       "classType": "b",
       "required": true,
-      "className": "二乙"
+      "className": "資傳二乙"
     },
     {
       "code": "INFO-434-01-A1",
       "name": "數位內容與創新加值管理",
       "teacher": "吳林展",
       "day": 4,
-      "periods": ["6", "7", "8"],
+      "periods": [
+        "6",
+        "7",
+        "8"
+      ],
       "room": "C101",
       "year": "4",
       "classType": "common",
       "required": false,
-      "className": "四甲"
+      "className": "資傳四甲"
     },
     {
       "code": "INFO-212-01-A1",
       "name": "資訊心理學",
       "teacher": "陳貞妃",
       "day": 4,
-      "periods": ["8", "9"],
+      "periods": [
+        "8",
+        "9"
+      ],
       "room": "R602",
       "year": "2",
       "classType": "common",
       "required": false,
-      "className": "大二"
+      "className": "資傳二年級"
     },
     {
       "code": "INFO-439-01-A1",
       "name": "資傳人才新創育成",
       "teacher": "楊志宏 / 吳林展",
       "day": 4,
-      "periods": ["9", "10"],
+      "periods": [
+        "9",
+        "10"
+      ],
       "room": "C101",
       "year": "4",
       "classType": "common",
       "required": false,
-      "className": "四甲"
+      "className": "資傳四甲"
     },
     {
       "code": "INFO-335-01-A1",
       "name": "數位產品技術加值",
       "teacher": "楊志宏",
       "day": 4,
-      "periods": ["12", "13", "14"],
+      "periods": [
+        "12",
+        "13",
+        "14"
+      ],
       "room": "R203",
       "year": "3",
       "classType": "common",
       "required": false,
-      "className": "大三"
+      "className": "資傳三年級"
     },
     {
       "code": "INFO-368-01-A1",
       "name": "生成式AI與商模創新",
       "teacher": "江信昱",
       "day": 5,
-      "periods": ["2", "3", "4"],
+      "periods": [
+        "2",
+        "3",
+        "4"
+      ],
       "room": "R601",
       "year": "3",
       "classType": "common",
       "required": false,
-      "className": "大三"
+      "className": "資傳三年級"
     },
     {
       "code": "INFO-205-01-A1",
       "name": "互動程式設計(尾數1-3)",
       "teacher": "余顯強",
       "day": 5,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "L406",
       "year": "2",
       "classType": "common",
       "required": true,
-      "className": "大二"
+      "className": "資傳二年級"
     },
     {
       "code": "INFO-205-02-A1",
       "name": "互動程式設計(尾數4-6)",
       "teacher": "劉立民",
       "day": 5,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "W401",
       "year": "2",
       "classType": "common",
       "required": true,
-      "className": "大二"
+      "className": "資傳二年級"
     },
     {
       "code": "INFO-438-01-A1",
       "name": "資訊傳播英文實務",
       "teacher": "江思嫺",
       "day": 5,
-      "periods": ["3", "4"],
+      "periods": [
+        "3",
+        "4"
+      ],
       "room": "G302",
       "year": "4",
       "classType": "common",
       "required": false,
-      "className": "四甲"
+      "className": "資傳四甲"
     },
     {
       "code": "INFO-243-01-A1",
       "name": "雲端平台與應用服務",
       "teacher": "劉立民",
       "day": 5,
-      "periods": ["6", "7"],
+      "periods": [
+        "6",
+        "7"
+      ],
       "room": "W401",
       "year": "2",
       "classType": "common",
       "required": false,
-      "className": "大二"
+      "className": "資傳二年級"
     },
     {
       "code": "INFO-205-03-A1",
       "name": "互動程式設計(尾數7-0)",
       "teacher": "陳俊廷",
       "day": 5,
-      "periods": ["8", "9"],
+      "periods": [
+        "8",
+        "9"
+      ],
       "room": "L406",
       "year": "2",
       "classType": "common",
       "required": true,
-      "className": "大二"
+      "className": "資傳二年級"
     }
   ]
 }
