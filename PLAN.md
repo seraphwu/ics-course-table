@@ -111,25 +111,23 @@
 | 節次 | periods | "6,7" → ["6","7"]；"6-8" → ["6","7","8"] |
 | 教室 | room | 直接取用 |
 | 年別 | year | 直接取用 |
-| 課程簡碼 | code | 直接取用（如有） |
+| 課程簡碼 | code | 直接取用（114-1 留空 ""） |
 | 選別 | required | "必"→true, "選"→false |
-| 開課系級 | className | 解析班別：二甲→"二甲", 傳播學院→"傳播學院" |
+| 開課系級 | className | 解析班別：資傳一甲→"資傳一甲", 傳播學院→"傳播學院" |
 | 課程簡碼前綴 | classType | 以 INFO 開頭→"a"/"b"（依班別）, 其他→"common" |
 
 ### 合開課程處理
 - 同一課程代碼 (code) + 同一天 + 同一節次 → 合併為一筆
 - 教師欄位用 " / " 連接 (如 "江信昱 / 郭冠麟")
 
-### 歷史版本格式差異
-
-| 欄位 | course_114-1.json | course_114-2.json | course_115-1.json (當前) |
-|------|-------------------|-------------------|-------------------------|
-| timeSlots.time | `08:10-09:00` | `08:10<br>~<br>09:00` | `08:10<br>~<br>09:00` |
-| timeSlots key 順序 | period, time, label | period, label, time | period, label, time |
-| className | 資傳一甲, 資傳二年級 | 一甲, 大二 | 一甲, 大二 |
-| code 欄位 | 無 | 有 | 有 |
-
-**注意**: 當前爬蟲產出的格式與 course_114-2.json 一致，與 course_114-1.json 不同。若需統一格式，需修改 course_114-1.json。
+### 格式統一說明 (2026-07-15 更新)
+所有學期的 JSON 檔案格式已統一：
+- **timeSlots.time**: `08:10<br>~<br>09:00` 格式
+- **timeSlots key**: period, label, time 順序
+- **className**: 保留 "資傳" 前綴 (如 "資傳一甲", "資傳二年級")
+- **code 欄位**: 所有檔案都有 (114-1 留空 "")
+- **note 欄位**: 保留 (如 114-1 的 "note": "學號尾數1、2、3")
+- **合開教師**: 統一使用 " / " 格式
 
 ---
 
@@ -173,6 +171,7 @@ ics-course-table/
 │   └── workflows/
 │       └── scrape.yml          # GitHub Actions 排程
 ├── scrape.py                   # 爬蟲主程式
+├── convert_json.py             # JSON 格式轉換腳本
 ├── requirements.txt            # Python 依賴
 ├── PLAN.md                     # 本規劃文件
 ├── config.json                 # 學期設定
@@ -196,6 +195,8 @@ ics-course-table/
 - [x] 合開課程教師欄位合併 (江信昱 / 郭冠麟)
 - [x] GitHub Actions 定時排程設定
 - [x] 前端 `index.html` 正常顯示
+- [x] JSON 格式統一 (114-1, 114-2, 115-1)
+- [x] className 統一加上 "資傳" 前綴
 
 ### 當前課程列表 (115-1)
 | 課程代碼 | 課程名稱 | 教師 |
